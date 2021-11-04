@@ -19,8 +19,8 @@ kubectl create -f kubeDeploy.yaml
 kubectl create -f services.yaml
 </pre></code>
 
-The container should now be online an available throu these adress:
-<p>
+The container should now be online and available throu these adress:
+<pre><code>
 http://localhost:4711 for HTTP
-htpts://localhost:4712 for HTTPS
-</p>
+https://localhost:4712 for HTTPS
+</pre></code>
