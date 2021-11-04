@@ -1,3 +1,4 @@
+# This file creates a deployment on kubernetes.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,6 +17,7 @@ spec:
     spec:
       containers:
       - name: dockertest
-        image: dockertest
+        image: localhost:5000/dockertest
         ports:
         - containerPort: 3000
+        - containerPort: 3300

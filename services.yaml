@@ -1,3 +1,4 @@
+# This file creates a service on kubernetes, after the deployment was prepared.
 apiVersion: v1
 kind: Service
 metadata:
@@ -11,5 +12,9 @@ spec:
     name: webservice-port
     protocol: TCP
     targetPort: 3000
+  - port: 4712
+    name: webservice-port-https
+    protocol: TCP
+    targetPort: 3300
   selector:
     app: dockertest
