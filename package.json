@@ -1,0 +1,22 @@
+{
+  "name": "dockertest",
+  "version": "1.0.0",
+  "description": "A simple container with a hello world api for http and http over tls",
+  "main": "appservice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tearion/DockerTest.git"
+  },
+  "author": "Tearion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tearion/DockerTest/issues"
+  },
+  "homepage": "https://github.com/Tearion/DockerTest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
