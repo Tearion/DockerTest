@@ -1,5 +1,5 @@
-# DockerTest
-This project provides a docker container, with an http and https enabled hello world api. It could be useful, if you are debugging ingress tls issues or other problems.
+# HelloWorldAPIWithTLS
+This project provides a docker container with a http and https enabled hello world api. It could be useful, if you are debugging ingress tls issues or other problems.
 
 The image can be pushed to a local registry. This is also available as docker container.
 <pre><code>docker run -d -p 5000:5000 --restart=always --name registry registry:2</pre></code>
