@@ -24,3 +24,6 @@ The container should now be online and available throu these adress:
 http://localhost:4711 for HTTP
 https://localhost:4712 for HTTPS
 </pre></code>
+
+
+The container is also available on https://hub.docker.com/r/tearion/helloworldapiwithtls
