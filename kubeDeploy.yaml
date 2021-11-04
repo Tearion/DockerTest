@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dockertest-deployment
+  labels:
+    app: dockertest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dockertest
+  template:
+    metadata:
+      labels:
+        app: dockertest
+    spec:
+      containers:
+      - name: dockertest
+        image: dockertest
+        ports:
+        - containerPort: 3000
